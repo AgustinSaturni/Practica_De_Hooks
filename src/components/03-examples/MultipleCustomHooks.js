@@ -24,7 +24,7 @@ export const MultipleCustomHooks = () => {
             </div>
             ):          //si loading es falso, muestro la fraase y el author
             <blockquote className="blockquote text-right">
-                <p className="mb-0">{quote}</p>
+                <p className="mb-10">{quote}</p>
                 <footer className="blockquote-footer">{author}</footer>
 
             </blockquote>}
